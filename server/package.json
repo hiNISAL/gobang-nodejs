@@ -1,0 +1,17 @@
+{
+  "name": "gobang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NISAL",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}

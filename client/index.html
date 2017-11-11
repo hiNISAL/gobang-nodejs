@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>五子棋</title>
+  <style>
+    #cvs{
+      border: 2px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="cvs"></canvas>
+  <div id="tips">
+    <div id="my-color"></div>
+    <div id="info"></div>
+  </div>
+  <button id="reset">重新开局</button>
+
+  <script src="https://cdn.bootcss.com/socket.io/2.0.3/socket.io.js"></script>
+  <!-- <script src="./assets/js/functions.js"></script>  -->
+  <!-- <script src="./assets/js/entry.js"></script> -->
+
+  <script src="./assets/js/socket.js"></script>
+</body>
+</html>
